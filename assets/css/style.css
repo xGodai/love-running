@@ -6,6 +6,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 /* Body */
 body {
   min-height: 100vh;
@@ -15,19 +16,28 @@ body {
   color: #3a3a3a;
   font-family: lato, sans-serif;
 }
+
 /*Header*/
 header {
-  background-color: aqua;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0 2px 2px #3a3a3a;
 }
+
 h1 {
     font-family: Oswald, sans-serif;
 }
+
 /*Main*/
 main {
   background-color: lightblue;
   /* Flexbox properties to make the main section take up the remaining space */
   flex: 1 0 auto;
 }
+
 /*Footer*/
 footer {
   background-color: lightgreen;
