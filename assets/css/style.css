@@ -45,6 +45,11 @@ main {
   /* Flexbox properties to make the main section take up the remaining space */
   flex: 1 0 auto;
 }
+#menu {
+  font-size: 110%;
+  letter-spacing: 4px;
+  list-style-type: none;
+}
 
 /*Footer*/
 footer {
