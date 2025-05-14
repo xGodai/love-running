@@ -7,6 +7,7 @@
   box-sizing: border-box;
 }
 
+
 /* Body */
 body {
   min-height: 100vh;
@@ -16,13 +17,13 @@ body {
   color: #3a3a3a;
   font-family: lato, sans-serif;
 }
-
 h1, h2, h3 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
 
 /*Header*/
 header {
@@ -36,11 +37,11 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
-
 header a {
   text-decoration: none;
   color: inherit;
 }
+
 
 /* Navigation */
 #menu {
@@ -54,6 +55,8 @@ header a {
 .active {
   border-bottom: 1px solid #3a3a3a;
 }
+
+
 /* Navbar Styles Drop Down Toggle */
 nav {
   position: absolute;
@@ -65,6 +68,8 @@ nav {
   display: none;
   top: 100%
 }
+
+
 /* Nav Toggle */
 #nav-toggle:checked~nav {
   display: block;
@@ -76,12 +81,39 @@ nav {
   font-size: 2rem;
 }
 
+
 /*Main*/
 main {
   /* Flexbox properties to make the main section take up the remaining space */
   flex: 1 0 auto;
   margin-top: 47px;
 }
+
+
+/*Reasons Section*/
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#benefits p {
+    padding: 0 20px;
+}
+benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+
 /* Hero Section */
 #hero {
   height: 600px;
@@ -104,6 +136,7 @@ main {
   color: #ffffff;
 }
 
+
 /*Footer*/
 #social-networks {
   text-align: center;
@@ -117,6 +150,7 @@ main {
   padding: 5%;
   color: #3a3a3a;
 }
+
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
@@ -152,6 +186,7 @@ main {
     right: 50px;
   }
 }
+
 
 /* Large Screen */
 @media screen and (min-width: 992px) {
