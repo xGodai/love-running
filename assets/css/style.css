@@ -108,7 +108,7 @@ main {
 #benefits p {
     padding: 0 20px;
 }
-benefits hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
@@ -125,6 +125,28 @@ benefits hr {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+/* Meetup Times Section */
+#times {
+  background: url("../images/dublin-city.webp") no-repeat center center/cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* Not Wrap On Screen Less Than 400px */
+  flex-basis: 200px;
+  flex-grow: 1;
+  border: 2px solid white;
+}
+
+#times h3 {
+  color: #fafafa;
 }
 
 
