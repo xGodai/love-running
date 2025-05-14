@@ -76,10 +76,15 @@ nav {
 }
 /*Main*/
 main {
-  background-color: lightblue;
   /* Flexbox properties to make the main section take up the remaining space */
   flex: 1 0 auto;
   margin-top: 47px;
+}
+/* Hero Section */
+#hero {
+  height: 600px;
+  width: 100%;
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 /*Footer*/
