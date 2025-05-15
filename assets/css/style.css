@@ -224,7 +224,7 @@ main {
 /*Footer*/
 #social-networks {
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
@@ -298,7 +298,7 @@ main {
   /* Form */
   #signup {
     background-position: center;
-    position: relative;
+	align-content: center;
   }
   #signup-form {
     max-width: 400px;
