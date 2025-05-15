@@ -298,13 +298,13 @@ main {
   /* Form */
   #signup {
     background-position: center;
-    align-content: center;
+    align-content: space-between;
   }
   #signup-form {
     max-width: 400px;
     position: absolute;
     left: 10%;
-    top: 150px;
+    top: 20%;
   }
   .text-input:hover {
     border-color: #f16c6b;
